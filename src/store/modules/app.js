@@ -4,12 +4,13 @@ import { make } from 'vuex-pathify'
 // Data
 const state = {
   drawer: null,
+  name: '',
+  lastName: '',
+  phone: '',
 }
 
 const mutations = make.mutations(state)
-
 const actions = make.actions(state)
-
 const getters = {}
 
 export default {

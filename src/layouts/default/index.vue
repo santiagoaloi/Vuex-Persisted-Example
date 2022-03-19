@@ -2,7 +2,6 @@
   <v-app>
     <default-app-bar />
 
-    <default-drawer />
 
     <default-view />
   </v-app>
@@ -14,7 +13,6 @@
 
     components: {
       DefaultAppBar: () => import('./AppBar'),
-      DefaultDrawer: () => import('./Drawer'),
       DefaultView: () => import('./View'),
     },
   }
